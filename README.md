@@ -27,6 +27,12 @@ To deploy:
 vercel
 ```
 
+To production:
+
+```bash
+vercel --prod
+```
+
 # reference
 
 [https://vercel.com/docs/functions/quickstart](https://vercel.com/docs/functions/quickstart)
