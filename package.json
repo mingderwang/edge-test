@@ -1,6 +1,6 @@
 {
   "name": "edge-test",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "license": "MIT",
   "type": "module",
   "devDependencies": {
@@ -8,5 +8,10 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@vercel/edge": "^1.1.2",
+    "@vercel/functions": "^1.5.0",
+    "next": "^15.0.2"
   }
 }

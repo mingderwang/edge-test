@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "src": "/restricted/(.*)", "dest": "/api/edge" },
+    { "src": "/(.*)", "dest": "/" }
+  ]
+}
+
